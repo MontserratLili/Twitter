@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <link rel="stylesheet" type="text/css" href="css\twitter.css" media="screen"/>
+  </head>
+  <body>
+    <p id="contadorDeClicks">Contador de clicks</p>
+    <br>
+    <h1>Twiter</h1>
+    <textarea id="cajaDeTexto" oninput="contar();"></textarea>
+    De
+    <input id="autor" value="" type="text"/>
+    <p id="contador">contador 0/140</p>
+    <button id="enviar" onclick="imprimir();">Enviar</button>
+    <h3>Tweet Stories</h3>
+    <p id="mostrarTweets"></p>
+
+    <script src="js\twitter.js"></script>
+  </body>
+</html>
